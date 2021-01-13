@@ -1,0 +1,114 @@
+
+*{
+    margin:0;
+}
+
+h1{
+   
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 300%;
+    color: rgb(218, 208, 208);
+}
+h2{
+   
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 2em;
+    color: rgb(218, 208, 208);
+}
+.header a{
+    text-decoration: none;
+    font-family: 'Anton', sans-serif;
+    font-size: 2em;
+    color: rgb(218, 208, 208);
+    margin:10px;
+    padding:5px;
+    border-radius: 10px;
+}
+.header a:hover{
+    background-color:plum;
+}
+.header{
+    display: block;
+    text-align: center;
+    padding: 30px;
+    background-color:rgba(138, 71, 138, 0.3);
+    margin-bottom: 20px;
+  
+}
+.MePhoto{
+    width:20%;
+    padding: 2em;
+    border-radius: 100%;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    
+
+
+}
+#mainbox{
+    background-color: rgba(138, 71, 138, 0.3);
+    border-radius: 5%;
+    width: 100%;
+    height: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  
+}
+#view{
+
+    display:inline-block;
+    margin:2em;
+    text-decoration: none;
+    border:0.5em solid rgb(218, 208, 208);
+    background: none;
+    padding: 1em;
+    font-family: 'Anton', sans-serif;
+    color:rgb(218, 208, 208);
+    transition: border-color 0.25s, box-shadow 0.25s, transform 0.25s;
+}
+#view:hover{
+    border-color: palevioletred;
+    box-shadow:0 0.5em 0.5em -0.4em palevioletred;
+    transform: translateY(-0.25em);
+
+
+}
+
+
+ul{
+  text-align: center;
+  
+ 
+  
+}
+.media{
+    text-decoration: none;
+    color: rgb(218, 208, 208);
+}
+li{
+    list-style: none;
+    display:inline-block;
+    font-size:2em;
+    padding:0.25em 0.5em;
+    border:0.05em solid rgb(218, 208, 208);
+    border-radius:30%;
+    color: rgb(218, 208, 208);
+  
+
+}
+#github:hover{
+    background-color: rgb(39, 38, 38);
+}
+#linkedin:hover{
+    background-color:rgb(68, 68, 241) ;
+}
+#youtube:hover{
+    background-color: crimson;
+}
+#email:hover{
+    background-color: darkcyan;
+}
