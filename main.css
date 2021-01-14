@@ -7,20 +7,30 @@ h1{
    
     font-family: 'Roboto', sans-serif;
     text-align: center;
-    font-size: 300%;
+    font-size: 5vw;
     color: rgb(218, 208, 208);
 }
 h2{
    
     font-family: 'Roboto', sans-serif;
     text-align: center;
-    font-size: 2em;
+    font-size: 2vw;
     color: rgb(218, 208, 208);
 }
+h3{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 1.5vw;
+    color: rgb(218, 208, 208);
+    margin: 1em;
+    padding-bottom: 1em;
+    
+}
+
 .header a{
     text-decoration: none;
     font-family: 'Anton', sans-serif;
-    font-size: 2em;
+    font-size: 200%;
     color: rgb(218, 208, 208);
     margin:10px;
     padding:5px;
@@ -44,10 +54,21 @@ h2{
     display:block;
     margin-left: auto;
     margin-right: auto;
-    
-
+}
+.MeAgainPhoto{
+    width:20%;
+    margin:1em;
+    border-radius: 20%;
+    float: left;
+    margin-bottom: 11em;
+}
+.bio{
+   padding:1em;
+ 
+   float:right;
 
 }
+
 #mainbox{
     background-color: rgba(138, 71, 138, 0.3);
     border-radius: 5%;
@@ -112,3 +133,78 @@ li{
 #email:hover{
     background-color: darkcyan;
 }
+.ResumePage{
+    padding: 2em;
+    display:block;
+    width:60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Description{
+    float:right;
+    display:block;
+    font-family: 'Roboto', sans-serif;
+    font-size: 125%;
+
+
+}
+#MyProjects{
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+    font-size: 5vw;
+    color:whitesmoke;
+    margin-bottom: 5%;
+   
+}
+.ProjectHeader{
+    color:white;
+    margin-right: 10%;
+    text-align: right;
+    font-family: 'Roboto', sans-serif;
+    font-size: 5vw;
+}
+
+.container {
+    position: relative;
+    width: 50%;
+  }
+  
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+  }
+  
+  .container:hover .overlay {
+    opacity: 1;
+  }
+  
+  .text {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+
+
