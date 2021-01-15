@@ -1,6 +1,7 @@
 
 *{
     margin:0;
+    text-decoration: none;
 }
 
 h1{
@@ -24,8 +25,13 @@ p{
     color: rgb(218, 208, 208);
     margin: 1em;
     padding-bottom: 1em;
+  
+  
+    
+   
     
 }
+
 h5{
     font-family: 'Roboto', sans-serif;
     text-align: center;
@@ -35,6 +41,7 @@ h5{
     padding-bottom: 1em;
     
 }
+
 
 .header a{
     text-decoration: none;
@@ -133,6 +140,7 @@ li{
 #github:hover{
     background-color: rgb(39, 38, 38);
 }
+
 #linkedin:hover{
     background-color:rgb(68, 68, 241) ;
 }
@@ -151,13 +159,17 @@ li{
 }
 
 .Description{
-    float:right;
-    display:block;
     font-family: 'Roboto', sans-serif;
-    font-size: 125%;
+    text-align: center;
+    font-size: 1.5vw;
+    color: white;
+    margin-left: 2em;
+    width:300%;
+
 
 
 }
+
 .MyProjects{
     font-family: 'Anton', sans-serif;
     text-align: center;
@@ -173,17 +185,14 @@ li{
     font-family: 'Roboto', sans-serif;
     font-size: 2.5vw;
 }
-.Description{
-    color: rgb(218, 208, 208);
-    margin-left:5%;
-    text-align: right;
-    font-family: 'Roboto', sans-serif;
-    font-size: 1vw;
-}
+
 
 .container {
     position: relative;
     width: 50%;
+    display:flex;
+   
+    
   }
   
   .image {
@@ -231,3 +240,28 @@ li{
 
 }
 
+.ProjectGithub{
+    color:black;
+    width:100%;
+    font-size:200%;
+
+
+}
+.ProjectGithub:hover{
+    color:white;
+}
+.RepositoryHere{
+    font-family: 'Roboto', sans-serif;
+ 
+    font-size: 2vw;
+    color: white;
+    margin-left: 50%;
+    
+    
+    
+}
+.WithLine{
+
+    border-bottom: 2px solid rgba(218, 208, 208,0.5);
+    margin-bottom: 5%;
+}
