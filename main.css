@@ -8,21 +8,21 @@ h1{
    
     font-family: 'Roboto', sans-serif;
     text-align: center;
-    font-size: 5vw;
-    color: rgb(218, 208, 208);
+    font-size: 5vmin;
+    color: white;
 }
 h2{
    
     font-family: 'Roboto', sans-serif;
     text-align: center;
-    font-size: 2vw;
-    color: rgb(218, 208, 208);
+    font-size: 2vmin;
+    color:white;
 }
 p{
     font-family: 'Roboto', sans-serif;
     text-align: center;
-    font-size: 1.5vw;
-    color: rgb(218, 208, 208);
+    font-size: 1.5vmin;
+    color: white;
     margin: 1em;
     padding-bottom: 1em;
   
@@ -35,8 +35,8 @@ p{
 h5{
     font-family: 'Roboto', sans-serif;
     text-align: center;
-    font-size: 1.5vw;
-    color: rgb(218, 208, 208);
+    font-size: 1.5vmin;
+    color:white;
     margin: 1em;
     padding-bottom: 1em;
     
@@ -161,9 +161,10 @@ li{
 .Description{
     font-family: 'Roboto', sans-serif;
     text-align: center;
-    font-size: 1.5vw;
+    font-size: 2.0vmin;
     color: white;
-    margin-left: 2em;
+    margin-left: 50%;
+    margin-right:50%;
     width:300%;
 
 
@@ -173,17 +174,17 @@ li{
 .MyProjects{
     font-family: 'Anton', sans-serif;
     text-align: center;
-    font-size: 5vw;
+    font-size: 5vmin;
     color:whitesmoke;
     margin-bottom: 5%;
    
 }
 .ProjectHeader{
-    color:white;
-    margin-right: 1%;
-    text-align: right;
     font-family: 'Roboto', sans-serif;
-    font-size: 2.5vw;
+    text-align: center;
+    font-size: 2vmin;
+    color: white;
+    margin-bottom: 5%;
 }
 
 
@@ -221,7 +222,7 @@ li{
   .text {
     font-family: 'Roboto', sans-serif;
     color: white;
-    font-size: 20px;
+    font-size: 150%;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -241,19 +242,18 @@ li{
 }
 
 .ProjectGithub{
-    color:black;
+    color:white;
     width:100%;
     font-size:200%;
 
 
 }
 .ProjectGithub:hover{
-    color:white;
+    color:black;
 }
 .RepositoryHere{
     font-family: 'Roboto', sans-serif;
- 
-    font-size: 2vw;
+    font-size: 2vmin;
     color: white;
     margin-left: 50%;
     
