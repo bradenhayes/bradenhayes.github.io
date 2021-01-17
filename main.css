@@ -31,6 +31,15 @@ p{
    
     
 }
+#aboutlast{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 1.5vmin;
+    color: white;
+    margin: 1em;
+    padding-bottom: 30%;
+
+}
 
 h5{
     font-family: 'Roboto', sans-serif;
@@ -76,7 +85,7 @@ h5{
     margin:1em;
     border-radius: 20%;
     float: left;
-    margin-bottom: 11em;
+    margin-bottom: 110%;
 }
 .bio{
    padding:1em;
