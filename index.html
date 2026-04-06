@@ -1,1 +1,434 @@
-<!DOCTYPE html><html lang=""><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="icon" href="/favicon.ico"><title>Braden Hayes' Website</title><link href="/css/app.99698dce.css" rel="preload" as="style"><link href="/js/app.f1b8d860.js" rel="preload" as="script"><link href="/js/chunk-vendors.b32fa656.js" rel="preload" as="script"><link href="/css/app.99698dce.css" rel="stylesheet"></head><body><noscript><strong>We're sorry but fireblogs doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id="app"></div><script src="/js/chunk-vendors.b32fa656.js"></script><script src="/js/app.f1b8d860.js"></script></body></html>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Braden Hayes | Software Engineer</title>
+    <meta
+      name="description"
+      content="Portfolio for Braden Hayes, a software engineer in Ontario focused on secure systems, platform delivery, and practical software projects."
+    >
+    <link rel="icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap"
+      rel="stylesheet"
+    >
+    <link rel="stylesheet" href="styles.css?v=8">
+  </head>
+  <body>
+    <div class="site-bg"></div>
+
+    <header class="topbar">
+      <div class="topbar-inner">
+        <a class="brand" href="#top">Braden Hayes</a>
+        <nav class="topnav" aria-label="Primary">
+          <a href="#about">About</a>
+          <a href="#experience">Experience</a>
+          <a href="#projects">Projects</a>
+          <a href="#education">Education</a>
+          <a href="resume.html">Resume</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="page" id="top">
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Senior Software Development Engineer | Ontario, Canada</p>
+          <h1>Hi, I'm Braden Hayes.</h1>
+          <p class="hero-lead">
+            I am Braden Hayes, a Senior Software Development Engineer at Thales working on the
+            Luna Network HSM platform across secure systems, automation, release coordination,
+            and platform delivery.
+          </p>
+          <p class="hero-lead">
+            Outside of coding, I am big into sports and staying active. Skiing, swimming, hockey,
+            soccer, golf, and getting out for hikes are a big part of who I am, and I like having
+            that balance alongside the engineering side of my life.
+          </p>
+
+          <div class="hero-actions">
+            <a class="button button-primary" href="#projects">See Projects</a>
+            <a class="button button-secondary" href="resume.html">Open Resume</a>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <article class="portrait-card portrait-main">
+            <img src="img/profilePic-hero.png?v=6" alt="Portrait of Braden Hayes">
+          </article>
+        </div>
+      </section>
+
+      <section class="section section-story" id="about">
+        <div class="section-heading">
+          <p class="eyebrow">About Me</p>
+          <h2>A bit more about me.</h2>
+        </div>
+
+        <div class="story-grid">
+          <article class="story-card story-copy">
+            <p>
+              My background is in systems engineering, and most of my work has been in
+              environments where reliability matters. I enjoy building software that is practical,
+              maintainable, and able to hold up in real production settings.
+            </p>
+            <p>
+              Beyond my professional work, I spend a lot of time on personal projects to keep
+              learning and to try out ideas that interest me. A lot of them started from simple
+              curiosity, whether that was building something with a Raspberry Pi, working with an
+              API, or finding a way to automate something I cared about.
+            </p>
+            <p>
+              A lot of the projects on this site came from that mix of curiosity and practicality.
+              Usually I start with something simple I want to learn, automate, or build for fun,
+              then keep improving it until it turns into something worth sharing.
+            </p>
+          </article>
+
+          <article class="story-card interests-card">
+            <h3>Outside of work</h3>
+            <div class="tag-row" aria-label="Interests">
+              <span>Skiing</span>
+              <span>Swimming</span>
+              <span>Hockey</span>
+              <span>Soccer</span>
+              <span>Golf</span>
+              <span>Hiking</span>
+            </div>
+            <p>
+              Staying active helps me keep a good balance outside of work, and honestly a lot of
+              my best ideas show up when I step away from a screen for a while.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="experience">
+        <div class="section-heading">
+          <p class="eyebrow">Experience</p>
+          <h2>Professional work across security, systems, and delivery.</h2>
+        </div>
+
+        <div class="timeline">
+          <article class="timeline-item">
+            <div class="timeline-meta">June 2025 - Present</div>
+            <div class="timeline-body">
+              <h3>Senior Software Development Engineer | Thales Group</h3>
+              <p>
+                Build security-critical software for the Luna Network HSM platform using C++ and
+                Linux, with work spanning secure systems, client integration, and platform
+                reliability.
+              </p>
+              <ul>
+                <li>Designed and implemented a Bring Your Own Certificate capability for enterprise customers.</li>
+                <li>Served as Release Champion across more than 100 engineers, 5 teams, and 3 countries.</li>
+                <li>Built internal automation around release planning, ownership tracking, and coordination.</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="timeline-item">
+            <div class="timeline-meta">May 2022 - June 2025</div>
+            <div class="timeline-body">
+              <h3>Software Development Engineer | Thales Group</h3>
+              <p>
+                Worked on next-generation HSM software using Python, C++, JavaScript, Docker,
+                Yocto, and GitLab CI/CD while helping modernize the client and platform stack.
+              </p>
+              <ul>
+                <li>Led development of the client connector for a next-generation HSM platform.</li>
+                <li>Architected a Crypto Traffic Controller for stronger client-to-device communication.</li>
+                <li>Developed cryptographic applications with OpenSSL and PKCS#11 APIs.</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="timeline-item">
+            <div class="timeline-meta">May 2021 - January 2022</div>
+            <div class="timeline-body">
+              <h3>Full Stack Software Developer Intern | Transport Canada</h3>
+              <p>
+                Contributed to the Corporate Data Pathfinder using Vue.js, Node.js, GraphQL, SQL,
+                and Docker while also expanding testing and security coverage.
+              </p>
+              <ul>
+                <li>Implemented OWASP ZAP penetration testing in Azure DevOps pipelines.</li>
+                <li>Designed K6 load testing for GraphQL APIs.</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="projects">
+        <div class="section-heading section-heading-row">
+          <div>
+            <p class="eyebrow">Projects</p>
+            <h2>Projects I've built over the years.</h2>
+          </div>
+          <p class="section-intro">
+            A mix of software, automation, hardware, and personal projects that helped shape how I
+            build.
+          </p>
+        </div>
+
+        <div class="projects-grid">
+          <article class="project-card">
+            <img src="img/nfl.0eb5f4cb.jpg" alt="NFL-themed project graphic">
+            <div class="project-content">
+              <p class="project-kicker">2024 | Python, Google Sheets API, PyInstaller</p>
+              <h3>Fantasy Football Stat Tracking Using Python and AWS</h3>
+              <p>
+                Crafted with Python and AWS, this automated system compiles detailed statistics for
+                ESPN fantasy football leagues and goes beyond the default league views with richer
+                analysis and standings information.
+              </p>
+              <p>
+                The goal was to make league data more useful and easier to act on, while also
+                giving myself a deeper project around APIs, automation, and distribution.
+              </p>
+              <div class="project-links">
+                <a href="project-fantasy.html">More details</a>
+                <a href="https://github.com/bradenhayes/FantasyFootballStatTracker" target="_blank" rel="noreferrer">Source</a>
+                <a href="https://medium.com/@braden_hayes/fantasy-football-stat-tracking-using-python-and-aws-35d0efca9220" target="_blank" rel="noreferrer">Medium</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <img src="img/overview.8c88afba.jpg" alt="Capstone project overview">
+            <div class="project-content">
+              <p class="project-kicker">2022 | Capstone</p>
+              <h3>4th Year Undergraduate Capstone Project</h3>
+              <p>
+                For my fourth year capstone, my team compared roller hockey to ice hockey to see
+                how similarly different muscles are activated across the two sports.
+              </p>
+              <p>
+                I built the software application used to visualize, record, sort, and store the
+                incoming data in real time so the team could work with the results during testing
+                and analysis.
+              </p>
+              <div class="project-links">
+                <a href="project-capstone.html">More details</a>
+                <a href="https://github.com/bradenhayes/CarletonProjectTeam35.github.io" target="_blank" rel="noreferrer">Source</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <img src="img/soundsensor.b7089e17.jpg" alt="Raspberry Pi security system hardware">
+            <div class="project-content">
+              <p class="project-kicker">Archive | Raspberry Pi, Python, sensors</p>
+              <h3>Raspberry Pi Security System</h3>
+              <p>
+                Built a full security system across four Raspberry Pis with motion detection, a
+                laser tripwire, sound sensing, timestamped recordings, and real-time video
+                streaming.
+              </p>
+              <p>
+                My work focused on the audio section and server-side flow, including sound sensor
+                logic, Dropbox uploads, and the desktop application that pulled data together for
+                monitoring and playback.
+              </p>
+              <div class="project-links">
+                <a href="project-security.html">More details</a>
+                <a href="https://github.com/bradenhayes/Alpha_Security" target="_blank" rel="noreferrer">Source</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <img src="img/rfid.79659218.jpg" alt="RFID room controller hardware project">
+            <div class="project-content">
+              <p class="project-kicker">Archive | Raspberry Pi, RFID</p>
+              <h3>Raspberry Pi Room Controller Using RFID</h3>
+              <p>
+                Built this to explore the RFID RC522 and create a room controller for music,
+                lights, and LEDs.
+              </p>
+              <p>
+                It was a fun hardware-heavy project and turned into a full write-up because it felt
+                useful enough to document as a tutorial.
+              </p>
+              <div class="project-links">
+                <a href="project-rfid.html">More details</a>
+                <a href="https://github.com/bradenhayes/RFID_room_control" target="_blank" rel="noreferrer">Source</a>
+                <a href="https://medium.com/@braden_hayes/raspberry-pi-room-controller-using-rfid-ff112f5a3fa4" target="_blank" rel="noreferrer">Medium</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <img src="img/albums.6e24e902.jpg" alt="Spotify song contest interface">
+            <div class="project-content">
+              <p class="project-kicker">Archive | React, Spotify API</p>
+              <h3>Spotify Song Contest Using React</h3>
+              <p>
+                I built this project to improve my React skills while making something fun. Using
+                Spotify's API, users guess which of two songs is more popular.
+              </p>
+              <p>
+                It was one of the projects that helped me get more comfortable building interactive
+                frontend experiences around external APIs.
+              </p>
+              <div class="project-links">
+                <a href="project-song-contest.html">More details</a>
+                <a href="https://github.com/bradenhayes/SongPopularityContest" target="_blank" rel="noreferrer">Source</a>
+                <a href="https://medium.com/@braden_hayes/spotify-song-contest-using-react-cbfc4f359dfe" target="_blank" rel="noreferrer">Medium</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <img src="img/light.49e06dd5.jpg" alt="Goal light hardware project">
+            <div class="project-content">
+              <p class="project-kicker">Archive | Raspberry Pi, APIs</p>
+              <h3>DIY Goal Light Using a Raspberry Pi</h3>
+              <p>
+                I built this to improve my API skills and make something fun for hockey. The setup
+                flashes my lights when my favorite NHL team scores.
+              </p>
+              <p>
+                It combined live sports data with home automation and ended up being one of the
+                more satisfying small builds I put together.
+              </p>
+              <div class="project-links">
+                <a href="project-goal-light.html">More details</a>
+                <a href="https://github.com/bradenhayes/Raspberry-Pi-Goal-Light" target="_blank" rel="noreferrer">Source</a>
+                <a href="https://medium.com/@braden_hayes/diy-goal-light-using-a-raspberry-pi-7a166475b1f9" target="_blank" rel="noreferrer">Medium</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <img src="img/website.cb7daf80.jpg" alt="Website project screenshot">
+            <div class="project-content">
+              <p class="project-kicker">Archive to present | Personal site</p>
+              <h3>My Website</h3>
+              <p>
+                I decided it was time to build a website for myself to show my work, my projects,
+                and a bit of my life outside of work.
+              </p>
+              <p>
+                As my frontend skills improved, the site changed with them. It started with plain
+                HTML and CSS, then evolved through other approaches as I learned more on the job
+                and in school.
+              </p>
+              <div class="project-links">
+                <a href="project-website.html">More details</a>
+                <a href="https://github.com/bradenhayes/bradenhayes.github.io" target="_blank" rel="noreferrer">Source</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <img src="img/textAPI.0c707820.jpg" alt="Automatic text sender project graphic">
+            <div class="project-content">
+              <p class="project-kicker">Archive | Python, Textbelt API</p>
+              <h3>Automatic Text Sender</h3>
+              <p>
+                A simple Python script with a scheduler that sends a text message every morning at
+                6 AM using the Textbelt API.
+              </p>
+              <p>
+                It was a small project, but a fun one, and the kind of thing that works perfectly
+                on a Raspberry Pi running in the background.
+              </p>
+              <div class="project-links">
+                <a href="project-text-sender.html">More details</a>
+                <a href="https://github.com/bradenhayes/SendText" target="_blank" rel="noreferrer">Source</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <img src="img/spotify.d46c6acc.jpg" alt="Spotify playlist generator graphic">
+            <div class="project-content">
+              <p class="project-kicker">Archive | Python, Spotify API</p>
+              <h3>Spotify Playlist Generator</h3>
+              <p>
+                Built using Spotify for Developers, this script creates a new playlist every time
+                Release Radar refreshes and copies the songs into a dated playlist.
+              </p>
+              <p>
+                The point was to preserve each week's discoveries instead of losing them when
+                Release Radar updated again the next Friday.
+              </p>
+              <div class="project-links">
+                <a href="project-playlist.html">More details</a>
+                <a href="https://github.com/bradenhayes/SpotifyPython" target="_blank" rel="noreferrer">Source</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section section-split" id="education">
+        <div>
+          <div class="section-heading">
+            <p class="eyebrow">Education</p>
+            <h2>Formal learning and ongoing skill building.</h2>
+          </div>
+          <div class="stack-list">
+            <article class="info-card">
+              <h3>University of Ottawa</h3>
+              <p>Master of Interdisciplinary Artificial Intelligence | September 2025 - Present</p>
+            </article>
+            <article class="info-card">
+              <h3>Carleton University</h3>
+              <p>B.Eng., Systems and Computer Engineering | September 2018 - May 2022</p>
+            </article>
+            <article class="info-card">
+              <h3>Certifications</h3>
+              <p>Professional Scrum Master I and II, Professional Scrum Product Owner I and II</p>
+            </article>
+          </div>
+        </div>
+
+        <aside class="skills-panel">
+          <p class="eyebrow">Skills</p>
+          <h3>Core stack</h3>
+          <div class="tag-row">
+            <span>Python</span>
+            <span>C++</span>
+            <span>C</span>
+            <span>Bash</span>
+            <span>JavaScript</span>
+            <span>TypeScript</span>
+            <span>React</span>
+            <span>Vue.js</span>
+            <span>Node.js</span>
+            <span>Docker</span>
+            <span>AWS</span>
+            <span>GitLab CI/CD</span>
+            <span>Jenkins</span>
+            <span>Yocto</span>
+            <span>Kafka</span>
+            <span>PKCS#11</span>
+            <span>OpenSSL</span>
+            <span>Linux</span>
+            <span>Networking</span>
+            <span>GraphQL</span>
+          </div>
+        </aside>
+      </section>
+
+      <section class="section contact-strip">
+        <div>
+          <p class="eyebrow">Stay Connected</p>
+          <h2>Stay connected.</h2>
+        </div>
+        <div class="contact-links">
+          <a href="mailto:bradenhayes55@live.ca">Email</a>
+          <a href="https://github.com/bradenhayes" target="_blank" rel="noreferrer">GitHub</a>
+          <a href="https://www.linkedin.com/in/braden-hayes/" target="_blank" rel="noreferrer">LinkedIn</a>
+          <a href="https://medium.com/@braden_hayes" target="_blank" rel="noreferrer">Medium</a>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
